@@ -86,10 +86,12 @@ pip install -r requirements.txt
 ```
 
 ### Data
-This project uses the **DataCo Smart Supply Chain Dataset** from Kaggle:  
-🔗 [DataCo SMART Supply Chain for Big Data Analysis](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
+This project uses the **DataCo Smart Supply Chain Dataset** (Fabian Constante, Fernando Silva & António Pereira, Instituto Politécnico de Leiria):
 
-Download and place `DataCoSupplyChainDataset.csv` in the `data/` folder.
+🔗 **Kaggle:** [DataCo SMART Supply Chain for Big Data Analysis](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)  
+🔗 **Mendeley Data (no login required):** [DataCo Supply Chain Dataset — Mendeley](https://data.mendeley.com/datasets/8gx2fvg2k6/5)
+
+Download `DataCoSupplyChainDataset.csv` and place it in the `data/` folder.
 
 ### Run the Analysis
 ```bash
@@ -117,7 +119,7 @@ python scripts/03_predictive_model.py
 
 | Source | Description |
 |--------|-------------|
-| DataCo Smart Supply Chain Dataset | 180,519 order records; 53 features; Kaggle/UCI |
+| DataCo Smart Supply Chain Dataset (Mendeley / Kaggle) | 180,519 order records; 53 features; clothing, sports & electronics across 5 global markets |
 
 ---
 
